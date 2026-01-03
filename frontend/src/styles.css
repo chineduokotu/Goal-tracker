@@ -1,0 +1,29 @@
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+  --card-bg: #ffffff;
+  --muted: #6b7280;
+}
+
+[data-theme='dark'] {
+  --bg: #0b1220;
+  --text: #e6eef6;
+  --card-bg: #071224;
+  --muted: #9aa4b2;
+}
+
+body { background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.topnav { display:flex; gap:12px; align-items:center; padding:12px; background:var(--card-bg); box-shadow:0 1px 4px rgba(0,0,0,0.04); }
+.topnav a { color:var(--text); text-decoration:none; margin-right:8px }
+.topnav .nav-right { margin-left:auto }
+.btn { padding:6px 10px; border-radius:6px; background:#1976d2; color:white; border:none; cursor:pointer }
+.btn-danger { background:#d32f2f }
+.btn-secondary { background:#6b7280 }
+.goal-card { background: var(--card-bg); padding:12px; border-radius:8px; margin-bottom:12px }
+.empty { padding:12px; color:var(--muted) }
+.toast-container { z-index:9999 }
+.reminders { margin-top:8px }
+.reminders ul { list-style:none; padding:0 }
+.reminders li { display:flex; gap:8px; align-items:center; padding:4px 0 }
+.reminders .muted { color:var(--muted) }
+
