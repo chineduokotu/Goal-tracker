@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Express backend API for the book management application",
+  "description": "Goal Tracker - Express backend API",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
